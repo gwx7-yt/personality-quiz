@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fcf8ec; 
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.result-container {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 20px;
+    margin: 20% auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFC0CB; 
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2ecc71; 
+}
+
+.question-container {
+    font-size: 50px; 
+    font-weight: bold; 
+    color: #e74c3c; 
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#000080;
+    font-size: 20px;
+}
+
+.options-list {
+    margin-right: 20px; 
+    font-size: 30px;
+}
+
+select {
+    font-size: 18px;
+}
+button {
+    font-size: 30px; 
+    font-weight: bold; 
+    background-color: #2ecc71; 
+    color: #fff;
+    padding: 20px 40px; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60; 
+}
+.result-container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#animal-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#buy-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+#tshirt-link {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#tshirt-link:hover {
+    text-decoration: underline;
+}

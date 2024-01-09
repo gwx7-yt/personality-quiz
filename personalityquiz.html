@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personalityquiz.css">
+    <title>Animal Personality Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Discover your inner animal!</h1>
+        <form id="quiz-form">
+<div class="question-container" id="question-container-1">
+    <label class="question" for="question1">How would your friends describe you?
+    </label>
+
+    <div class="options-container">
+        <div class="options-list">
+            <label class="option"><input type="radio" id="question1" name="question1" value="bear"> a) Powerful</label><br>
+            <label class="option"><input type="radio" id="question2" name="question1" value="owl"> b) Intelligent</label><br>
+            <label class="option"><input type="radio" id="question3" name="question1" value="parrot"> c) Persuasive</label><br>
+            <label class="option"><input type="radio" id="question4" name="question1" value="horse">d) Swift
+            </label><br>
+        </div>
+
+        <div class="button-container">
+            <button type="button" onclick="nextQuestion(2)">
+            Next</button>
+        </div>
+    </div>
+</div>
+<div class="question-container" id="question-container-2" style="display: none;">
+    <label class="question" for="question2">What's your favorite way to spend time?
+    </label>
+
+    <div class="options-container">
+        <div class="options-list">
+            <label class="option"><input type="radio" id="question5" name="question2" value="bear"> a) Roaming in nature</label><br>
+            <label class="option"><input type="radio" id="question6" name="question2" value="owl"> b) Reading a good book</label><br>
+            <label class="option"><input type="radio" id="question7" name="question2" value="parrot"> c) Talking with friends</label><br>
+            <label class="option"><input type="radio" id="question8" name="question2" value="horse"> d) Exploring new places
+            </label><br>
+        </div>
+
+        <div class="button-container">
+            <button type="button" onclick="nextQuestion(3)">
+            Next</button>
+        </div>
+    </div>
+</div>
+
+<div class="question-container" id="question-container-3" style="display: none;">
+    <label class="question" for="question3">If you could have a superpower, what would it be?
+    </label>
+
+    <div class="options-container">
+        <div class="options-list">
+            <label class="option"><input type="radio" id="question9" name="question3" value="bear"> a) Super Strength</label><br>
+            <label class="option"><input type="radio" id="question10" name="question3" value="owl"> b) Telepathy</label><br>
+            <label class="option"><input type="radio" id="question11" name="question3" value="parrot"> c) Charm</label><br>
+            <label class="option"><input type="radio" id="question12" name="question3" value="horse"> d) Super Speed
+            </label><br>
+        </div>
+
+        <div class="button-container">
+            <button type="button" onclick="showResult()">
+            Submit</button>
+        </div>
+    </div>
+</div>
+
+
+    <script src="personalityquiz.js"></script>
+</body>
+</html>
