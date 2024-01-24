@@ -26,13 +26,13 @@ function getImageSrc(result) {
 function getTshirtLink(result) {
     switch (result) {
         case 'You are a Bear - Strong!':
-            return 'https://youtu.be/xvFZjo5PgG0?si=8Evh6-vd1ToCxAU5'; 
+            return 'bajaarbear.html'; 
         case 'You are an Owl - Wise!':
-            return 'https://youtu.be/xvFZjo5PgG0?si=8Evh6-vd1ToCxAU5'; 
+            return 'bajaarowl.html'; 
         case 'You are a Parrot - Social!':
-            return 'https://youtu.be/xvFZjo5PgG0?si=8Evh6-vd1ToCxAU5'; 
+            return 'bajaarparrot.html'; 
         case 'You are a Horse - Swift!':
-            return 'https://youtu.be/xvFZjo5PgG0?si=8Evh6-vd1ToCxAU5'; 
+            return 'bajaarparrot.html'; 
         default:
             return '';
     }
