@@ -32,7 +32,7 @@ function getTshirtLink(result) {
         case 'You are a Parrot - Social!':
             return 'bajaarparrot.html'; 
         case 'You are a Horse - Swift!':
-            return 'bajaarparrot.html'; 
+            return 'bajaarhorse.html'; 
         default:
             return '';
     }
