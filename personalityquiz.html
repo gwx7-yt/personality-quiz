@@ -19,11 +19,12 @@
             <label class="option"><input type="radio" id="question1" name="question1" value="bear"> a) Powerful</label><br>
             <label class="option"><input type="radio" id="question2" name="question1" value="owl"> b) Intelligent</label><br>
             <label class="option"><input type="radio" id="question3" name="question1" value="parrot"> c) Persuasive</label><br>
-            <label class="option"><input type="radio" id="question4" name="question1" value="horse">d) Swift
-            </label><br>
+            <label class="option"><input type="radio" id="question4" name="question1" value="horse"> d) Swift</label><br>
+
         </div>
 
         <div class="button-container">
+
             <button type="button" onclick="nextQuestion(2)">
             Next</button>
         </div>
@@ -43,6 +44,7 @@
         </div>
 
         <div class="button-container">
+             <button type="button" onclick="previousQuestion(1)">Previous</button>
             <button type="button" onclick="nextQuestion(3)">
             Next</button>
         </div>
@@ -63,13 +65,12 @@
         </div>
 
         <div class="button-container">
+             <button type="button" onclick="previousQuestion(2)">Previous</button>
             <button type="button" onclick="showResult()">
             Submit</button>
         </div>
     </div>
 </div>
-
-
-    <script src="personalityquiz.js"></script>
+  <script src="personalityquiz.js"></script>
 </body>
 </html>

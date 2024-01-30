@@ -11,6 +11,14 @@ function nextQuestion(next) {
     }
 }
 
+function previousQuestion() {
+    if (currentQuestion > 1) {
+        document.getElementById(`question-container-${currentQuestion}`).style.display = 'none';
+        currentQuestion--;
+        document.getElementById(`question-container-${currentQuestion}`).style.display = 'block';
+    }
+}
+
 function showResult() {
     const answers = {
         question1: document.querySelector('input[name="question1"]:checked').value,
