@@ -10,8 +10,8 @@
     <div class="quiz-container">
         <h1>Discover your inner animal!</h1>
         <form id="quiz-form">
-<div class="question-container" id="question-container-1">
-    <label class="question" for="question1">How would your friends describe you?
+<div class="question-container" id="question-container-1"> 
+    <label class="question" for="question1">‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎  How would your friends describe you?
     </label>
 
     <div class="options-container">
@@ -31,7 +31,7 @@
     </div>
 </div>
 <div class="question-container" id="question-container-2" style="display: none;">
-    <label class="question" for="question2">What's your favorite way to spend time?
+    <label class="question" for="question2">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ What's your favorite way to spend time?
     </label>
 
     <div class="options-container">
@@ -50,27 +50,74 @@
         </div>
     </div>
 </div>
-
 <div class="question-container" id="question-container-3" style="display: none;">
-    <label class="question" for="question3">If you could have a superpower, what would it be?
+    <label class="question" for="question3">‎ ‎ ‎ What do you crave for in the middle of the night?
     </label>
+    
 
     <div class="options-container">
         <div class="options-list">
-            <label class="option"><input type="radio" id="question9" name="question3" value="bear"> a) Super Strength</label><br>
-            <label class="option"><input type="radio" id="question10" name="question3" value="owl"> b) Telepathy</label><br>
-            <label class="option"><input type="radio" id="question11" name="question3" value="parrot"> c) Charm</label><br>
-            <label class="option"><input type="radio" id="question12" name="question3" value="horse"> d) Super Speed
-            </label><br>
+            <label class="option"><input type="radio" id="question9" name="question3" value="bear"> a) Meat</label><br>
+<label class="option"><input type="radio" id="question10" name="question3" value="owl"> b) Dry fruits</label><br>
+            <label class="option"><input type="radio" id="question11" name="question3" value="parrot"> c) Chips</label><br>
+            <label class="option"><input type="radio" id="question12" name="question3" value="horse"> d) Salad </label><br>
         </div>
+    </div>
 
         <div class="button-container">
              <button type="button" onclick="previousQuestion(2)">Previous</button>
+            <button type="button" onclick="nextQuestion(4)">
+            Next</button>
+        </div>
+    </div>
+    <div class="question-container" id="question-container-4" style="display: none;">
+    <label class="question" for="question4">‎ ‎ ‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   What are you good at?
+    </label>
+    
+
+    <div class="options-container">
+        <div class="options-list">
+            <label class="option"><input type="radio" id="question13" name="question4" value="bear"> a) Lifting weights</label><br>
+            <label class="option"><input type="radio" id="question14" name="question4" value="owl"> b) Learning</label><br>
+            <label class="option"><input type="radio" id="question15" name="question4" value="parrot"> c) Socializing</label><br>
+            <label class="option"><input type="radio" id="question16" name="question4" value="horse"> d) Running </label><br>
+        </div>
+    </div>
+
+        <div class="button-container">
+             <button type="button" onclick="previousQuestion(3)">Previous</button>
+            <button type="button" onclick="nextQuestion(5)">
+            Next</button>
+        </div>
+    </div>
+
+
+
+<div class="question-container" id="question-container-5" style="display: none;">
+    <label class="question" for="question5">‎ ‎ ‎ If you could have a superpower, what would it be?
+    </label>
+
+
+    <div class="options-container">
+        <div class="options-list">
+            <label class="option"><input type="radio" id="question17" name="question5" value="bear"> a) Super Strength</label><br>
+            <label class="option"><input type="radio" id="question18" name="question5" value="owl"> b) Telepathy</label><br>
+            <label class="option"><input type="radio" id="question19" name="question5" value="parrot"> c) Charm</label><br>
+            <label class="option"><input type="radio" id="question20" name="question5" value="horse"> d) Super Speed
+            </label><br>
+        </div>
+    </div>
+
+        <div class="button-container">
+             <button type="button" onclick="previousQuestion(4)">Previous</button>
             <button type="button" onclick="showResult()">
             Submit</button>
         </div>
     </div>
 </div>
+</form>
+</div>
+
   <script src="personalityquiz.js"></script>
 </body>
 </html>

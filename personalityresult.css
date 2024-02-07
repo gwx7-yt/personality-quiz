@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fcf8ec; 
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #3498db;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#animal-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#buy-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+#tshirt-link {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#tshirt-link:hover {
+    text-decoration: underline;
+}

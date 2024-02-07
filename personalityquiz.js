@@ -4,7 +4,7 @@ function nextQuestion(next) {
     document.getElementById(`question-container-${currentQuestion}`).style.display = 'none';
     currentQuestion = next;
 
-    if (currentQuestion <= 3) {
+    if (currentQuestion <= 5) {
         document.getElementById(`question-container-${currentQuestion}`).style.display = 'block';
     } else {
         showResult();
@@ -21,9 +21,11 @@ function previousQuestion() {
 
 function showResult() {
     const answers = {
-        question1: document.querySelector('input[name="question1"]:checked').value,
-        question2: document.querySelector('input[name="question2"]:checked').value,
-        question3: document.querySelector('input[name="question3"]:checked').value,
+        question1: getSelectedValue('question1'),
+        question2: getSelectedValue('question2'),
+        question3: getSelectedValue('question3'),
+        question4: getSelectedValue('question4'),
+        question5: getSelectedValue('question5'),
     };
 
     let result = '';
@@ -46,5 +48,11 @@ function showResult() {
     }
 
     localStorage.setItem('result', result);
+
     window.location.href = 'personalityresult.html';
+}
+
+function getSelectedValue(questionName) {
+    const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
+    return selectedOption ? selectedOption.value : '';
 }
